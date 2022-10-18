@@ -1,0 +1,418 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    background: linear-gradient(60deg, rgba(247, 243, 243, 0.63), rgba(8, 7, 7, 0.486) );
+
+}
+.hero{
+    height: 20vh;
+width: 100%;
+}
+.logo{
+    
+    background: url(./images/img11.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    display:flex ;
+    /* transition: color .2s; */
+}
+/* .logo:hover{
+    color: #00f94b;
+} */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 010px;
+    padding-left: 5%;
+    padding-right: 5% ;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px 30px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+font-weight: bold;
+text-transform: uppercase;
+transition: all .2s;
+color: #ffff;
+}
+nav ul li a:hover{
+    color: #f9004d;
+    font-size: 30px;
+}
+.active{
+    font-weight: bold;
+    color: blue;
+}
+/* .slider{
+    height: 500px;
+    width: 197vh;
+    margin-top: 40px;
+    border: 1px solid black;
+    background: linear-gradient(45deg, rgb(4, 97, 97), hsl(0, 0%, 100%));
+overflow: hidden;
+
+}
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+#slider figure{
+    float: left;
+    width: 20%;
+}
+@keyframes slider{
+    0%{left: 0;}
+    20%{left: 0;}
+    25%{left:-100%;}
+    45%{left:-100%;}
+
+}
+.image-wrapper{
+   
+    height: 500px;
+    width: 300px;
+
+   
+    background: url(images/img1.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.title{
+    font-size: 20px ;
+    text-transform: lowercase;
+    position: absolute;
+     top: 50%;
+     left: 50%; 
+     transform: translate(-50%, -50%); 
+    font-family: san;  
+}
+.image-wrapper2{
+    height: 600px;
+    width: 600px;
+    background: url(images/img10.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image-wrapper3{
+    height: 600px;
+    width: 400px;
+    background: url(images/img7.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.about{
+    height: 600px;
+    width: 190vh;
+    margin-top: 40px;
+    position: center;
+    align-items: center;
+    display: flex;
+    background: linear-gradient(70deg, rgb(74, 4, 83),hsl(0, 12%, 93%));
+   
+    /* border: 1px solid black; */
+  
+    /* animation: slide1 12s linear infinite; */
+}
+
+/* .slider2{
+    height: 600px;
+    width: 197vh;
+    margin-top: 40px;
+    position: center;
+    align-items: center;
+    display: flex;
+    animation: slide2 12s linear infinite;
+}
+.slider3{
+    height: 600px;
+    width: 197vh;
+    margin-top: 40px;
+    position: center;
+    align-items: center;
+    display: flex;
+    animation: slide3 12s linear infinite;
+} */
+.image{
+   animation: expand-fade-in 1s ease-out ;
+    height: 600px;
+    width: 500px;
+    left: 10%; 
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@keyframes expand-fade-in {
+    from{opacity: 0%; width: 0%;}
+    to{opacity: 100%; width: 20%;}
+}
+.text-box{
+    width: 600px;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    
+}
+.text-box h1{
+margin-bottom: 40px;
+
+}
+.text-box p{
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 80px;
+
+}
+.text-box span{
+    background: #f9004d;
+    height: 1px;
+    width: 100px;
+    position: absolute;
+    left: 0;
+
+}
+.text-box button{
+    width: 130PX;
+    height: 42px;
+    border-radius: 10px;
+    font-family: calibri;
+ font-weight: bold;
+ font-size: 14px;
+ outline: none;
+ /* margin: 0px 10px; */
+ position: absolute;
+ top: 50vh;
+ left: 20%; 
+ transform: translate(-50%, -50%); 
+}
+.hire-btn{
+    border: 2px solid #373636;
+    color: #373636;
+}
+ button:active{
+    transform:scale(1.1);
+}
+.box-1, .box-2, .box-3, .box-4{
+    width: 300px;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.box-5, .box-6, .box-7, .box-8{
+    width: 300px;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.box-9, .box-10, .box-11, .box-12{
+    width: 300px;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.box-13, .box-14, .box-15, .box-16{
+    width: 300px;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.box-container{
+    padding-top: 10px;
+display: flex;
+justify-content: space-between;
+}
+.box-1{
+    background-image: url("./images/33431.jpg");
+}
+.box-2{
+    background-image: url("./fash/34038.jpg");
+}
+.box-3{
+    background-image: url("./fash/34043.jpg");
+}
+.box-4{
+    background-image: url("./images/img6.png");
+}
+.box-5{
+    background-image: url("./fash/34023.jpg");
+}
+.box-6{
+    background-image: url("./images/33435.jpg");
+}
+.box-7{
+    background-image: url("./images/img3.png");
+}
+.box-8{
+    background-image: url("./fash/34017.jpg");
+}
+.box-9{
+    background-image: url("./fash/34016.jpg");
+}
+.box-10{
+    background-image: url("./fash/34018.jpg");
+}
+.box-11{
+    background-image: url("./fash/34021.jpg");
+}
+.box-12{
+    background-image: url("./images/33426.jpg");
+}
+.box-13{
+    background-image: url("./fash/34030.jpg");
+}
+.box-14{
+    background-image: url("./fash/34022.jpg");
+}
+.box-15{
+    background-image: url("./images/33475.jpg");
+}
+.box-16{
+    background-image: url("./images/33553.jpg");
+}
+
+
+.box-1 span,
+.box-2 span,
+.box-3 span,
+.box-4 span{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: calibri;
+    font-weight: bold;
+}
+.box-5 span,
+.box-6 span,
+.box-7 span,
+.box-8 span{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: calibri;
+    font-weight: bold;
+}
+.box-9 span,
+.box-10 span,
+.box-11 span,
+.box-12 span{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: calibri;
+    font-weight: bold;
+}
+.box-13 span,
+.box-14 span,
+.box-15 span,
+.box-16 span{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: calibri;
+    font-weight: bold;
+}
+.box-1 p:nth-child(2),
+.box-2  p:nth-child(2),
+.box-3 p:nth-child(2){
+ color: #ffffff;
+ font-family: calibri;
+ font-size: 23px;
+ line-height: 0px;
+}
+.box-1 p:nth-child(3),
+.box-2  p:nth-child(3),
+.box-3 p:nth-child(3 ){
+font-family: calibri;
+text-align: center;
+width: 230px;
+margin: 0px 0px 20px 0px;
+}
+
+
+
+
+
+
+/* .slider1{
+    animation: slide1 12s linear infinite;
+}
+.slider2{
+    animation: slide2 12s linear infinite;
+}
+.slider3{
+    animation: slide3 12s linear infinite;
+} */
+/* @keyframes slide1{
+    0%{visibility:visible;}
+    25%{visibility:hidden;}
+    50%{visibility:hidden;}
+    75%{visibility:hidden;}
+    100%{visibility:hidden;}
+} 
+@keyframes slide2{
+    0%{visibility:hidden;}
+    25%{visibility:hidden;}
+    50%{visibility:visible;}
+    75%{visibility:hidden;}
+    100%{visibility:hidden;}
+} 
+@keyframes slide3{
+    0%{visibility:hidden;}
+    25%{visibility:hidden;}
+    50%{visibility:hidden;}
+    75%{visibility:visible;}
+    100%{visibility:hidden;}
+} 
+     */
+
